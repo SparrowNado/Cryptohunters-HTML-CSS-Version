@@ -401,6 +401,12 @@ nav a:hover::before{
 
 
 
+
+
+
+
+
+
 /* CSS */
 .button-89 {
   --b: 3px;   /* border thickness */
@@ -1006,6 +1012,13 @@ body{
     padding-top: 1rem;
 } */
 
+
+
+@media screen and (max-width: 768px) {
+    footer {
+     white-space: nowrap;
+    }
+  }
 
 
 
