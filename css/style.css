@@ -209,6 +209,11 @@ nav a:hover::before{
 
 
 
+ @media screen and (max-width: 768px) {
+    .navbar img {
+        display: none;
+    }
+}
 
 
 
@@ -257,10 +262,11 @@ nav a:hover::before{
 
 
 
-
-
-
-
+@media screen and (min-width: 768px) {
+    .heroart {
+        height: max-content;
+    }
+  }
 
 
 
@@ -313,6 +319,7 @@ nav a:hover::before{
     align-items: flex-start;
     padding: 0rem 2rem;
     color: rgb(50, 51, 48);
+    z-index: 0;
 }
 
 
@@ -446,7 +453,9 @@ nav a:hover::before{
 }
 
 
-
+.header{
+    z-index: 100;
+}
 
 
 
