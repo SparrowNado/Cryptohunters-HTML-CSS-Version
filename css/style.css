@@ -50,6 +50,10 @@ html {
 
 
 
+.nav-menu active {
+    background-color: #323330;
+    background: #323330;
+}
 
 
 
@@ -215,7 +219,11 @@ nav a:hover::before{
     }
 }
 
-
+@media screen and (max-width: 768px) {
+    .row1-container p {
+        font-size: smaller;
+    }
+}
 
 
 
